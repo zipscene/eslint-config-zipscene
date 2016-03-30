@@ -2,10 +2,5 @@
   "name": "eslint-config-pulse",
   "version": "0.0.1",
   "description": "Linting configuration for all projects under pulse",
-  "main": ".eslintrc",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Andy Orahoske",
-  "license": "ISC"
+  "author": "Andy Orahoske"
 }

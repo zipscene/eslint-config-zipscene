@@ -6,7 +6,7 @@
     "es6": true
   },
   "parserOptions": {
-    "ecmaVersion": 7,
+    "ecmaVersion": 7
   },
   "plugins": ["eslint-plugin-ember"],
   "rules": {
@@ -164,9 +164,9 @@
     "strict": 0,
     "use-isnan": 2,
     "valid-jsdoc": [2, {
-      requireReturn: false,
-      requireParamDescription: false,
-      requireReturnDescription: false
+      "requireReturn": false,
+      "requireParamDescription": false,
+      "requireReturnDescription": false
     }],
     "valid-typeof": 2,
     "vars-on-top": 2,
