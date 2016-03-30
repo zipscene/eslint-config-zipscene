@@ -2,5 +2,6 @@
   "name": "eslint-config-pulse",
   "version": "0.0.1",
   "description": "Linting configuration for all projects under pulse",
-  "author": "Andy Orahoske"
+  "author": "Andy Orahoske",
+  "main": "index.js"
 }
