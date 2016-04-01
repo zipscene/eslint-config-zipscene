@@ -2,7 +2,8 @@ module.exports = {
   parser: "babel-eslint",
   env: {
     "shared-node-browser": true,
-    "es6": true
+    "es6": true,
+    "mocha": true
   },
   parserOptions: {
     "ecmaVersion": 7
