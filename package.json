@@ -1,7 +1,7 @@
 {
-  "name": "eslint-config-pulse",
+  "name": "eslint-config-zipscene",
   "version": "0.0.1",
-  "description": "Linting configuration for all projects under pulse",
-  "author": "Andy Orahoske",
+  "description": "Linting configuration for all Zipscene projects",
+  "author": "Zipscene",
   "main": "index.js"
 }
