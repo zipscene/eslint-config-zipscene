@@ -25,12 +25,6 @@ module.exports = {
     "curly": [2, "multi-line", "consistent"],
     "default-case": 0,
     "dot-notation": 2,
-    "ember/ember-extend-comments": [0, ["actions", "classNames"]],
-    "ember/ember-newline-extend": 0,
-    "ember/ember-newline-reopenclass": 0,
-    "ember/ember-reopenclass-comments": [0, [
-        "_class", "localStorage", "zsapiClient", "rawResponse"
-    ]],
     "eol-last": 0,
     "eqeqeq": 2,
     "func-names": 0,
