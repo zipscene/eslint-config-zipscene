@@ -2,6 +2,17 @@
   "name": "eslint-config-zipscene",
   "version": "0.0.1",
   "description": "Linting configuration for all Zipscene projects",
-  "author": "Zipscene",
-  "main": "index.js"
+  "repository": {
+    "type": "git",
+    "url": "git@git.zipscene.com:pulse/pulse.git"
+  },
+  "author": "Zipscene, LLC",
+  "license": "MIT",
+  "main": "index.js",
+  "devDependencies": {
+    "babel-eslint": "^6.0.0-beta.6",
+    "eslint": "^2.4.0",
+    "eslint-plugin-ember": "^1.1.0",
+    "eslint-plugin-ember-cleanup": "^1.5.0"
+  }
 }
