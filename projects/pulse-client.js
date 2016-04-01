@@ -6,4 +6,4 @@ module.exports = {
     "ember/ember-newline-extend": 0,
     "ember/ember-newline-reopenclass": 0
   }
-}
+};

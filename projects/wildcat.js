@@ -5,4 +5,4 @@ module.exports = {
       "_class", "localStorage", "zsapiClient", "rawResponse"
     ]]
   }
-}
+};

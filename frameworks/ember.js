@@ -1,7 +1,7 @@
 module.exports = {
   extends: 'zipscene/environments/frontend',
   plugins: ["eslint-plugin-ember"],
-  env: { "embertest": true }
+  env: { "embertest": true },
   rules: {
     "ember/ember-extend-comments": [2, [
       "actions", "classNames"
