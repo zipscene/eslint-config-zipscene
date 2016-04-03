@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-zipscene",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Linting configuration for all Zipscene projects",
   "repository": {
     "type": "git",
