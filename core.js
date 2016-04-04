@@ -42,7 +42,7 @@ module.exports = {
     "new-cap": 2,
     "newline-after-var": 0,
     "newline-before-return": 0,
-    "newline-per-chained-call": [2, { "ignoreChainWithDepth": 3 }],
+    "newline-per-chained-call": [2, { "ignoreChainWithDepth": 4 }],
     "new-parens": 2,
     "no-alert": 2,
     "no-array-constructor": 2,
