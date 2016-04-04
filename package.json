@@ -13,6 +13,6 @@
     "babel-eslint": "^6.0.0-beta.6",
     "eslint": "^2.4.0",
     "eslint-plugin-ember": "^1.1.0",
-    "eslint-plugin-ember-cleanup": "^1.5.0"
+    "eslint-plugin-ember-cleanup": "^1.6.0"
   }
 }
