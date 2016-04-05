@@ -5,6 +5,8 @@ module.exports = {
     "browser": true
   },
   rules: {
+    "indent": [2, 2],
+    "array-bracket-spacing": [2, "never"],
     "no-alert": 2
   }
 };

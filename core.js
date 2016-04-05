@@ -9,12 +9,12 @@ module.exports = {
     "ecmaVersion": 7
   },
   rules: {
-    "array-bracket-spacing": [2, "never"],
+    "array-bracket-spacing": [2, "always"],
     "arrow-body-style": [1, "as-needed"],
     "arrow-parens": [2, "always"],
     "arrow-spacing": [2, { "before": true, "after": true }],
     "block-scoped-var": 2,
-    "brace-style": 2,
+    "brace-style": [2, "1tbs", { "allowSingleLine": true }],
     "camelcase": 2,
     "comma-dangle": 2,
     "comma-spacing": 2,
@@ -32,7 +32,7 @@ module.exports = {
     "generator-star-spacing": 2,
     "guard-for-in": 0,
     "handle-callback-err": 0,
-    "indent": [2, 2, { "SwitchCase": 1 }],
+    "indent": [2, "tab", { "SwitchCase": 1 }],
     "key-spacing": 2,
     "keyword-spacing": 2,
     "max-len": [2, 120, 4],
