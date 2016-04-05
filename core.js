@@ -157,6 +157,7 @@ module.exports = {
     "space-unary-ops": 2,
     "spaced-comment": 2,
     "strict": 0,
+    "template-curly-spacing": [2, "never"],
     "use-isnan": 2,
     "valid-jsdoc": [2, {
       "requireReturn": false,
