@@ -1,0 +1,24 @@
+{
+  "name": "eslint-config-zipscene",
+  "version": "1.0.0",
+  "description": "Rules that adhere to the Zipscene company coding standards.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.zipscene.com:tools/eslint-config-zipscene.git"
+  },
+  "keywords": [
+    "linter",
+    "lint",
+    "zipscene",
+    "zs",
+    "eslint",
+    "eslintconfig",
+    "es6"
+  ],
+  "author": "",
+  "license": "ISC"
+}
