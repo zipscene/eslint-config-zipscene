@@ -1,9 +1,6 @@
 module.exports = {
-	extends: 'zipscene',
+	extends: 'zipscene/env/browser',
 	plugins: [ 'ember' ],
-	env: {
-		browser: true
-	},
 	rules: {
 		'ember/ember-extend-comments': [ 2, [ 'actions', 'classNames' ] ],
 		'ember/ember-newline-extend': 2,
