@@ -1,9 +1,8 @@
 module.exports = {
-	'env': {
-		'es6': true,
-		'node': true
+	env: {
+		'es6': true
 	},
-	'rules': {
+	rules: {
 		'accessor-pairs': 0,
 		'array-bracket-spacing': [ 2, 'always' ],
 		'array-callback-return': 0,
