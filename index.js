@@ -1,8 +1,11 @@
 module.exports = {
 	env: {
+		/* eslint-disable quote-props */
 		'es6': true
+		/* eslint-enable quote-props */
 	},
 	rules: {
+		/* eslint-disable quote-props */
 		'accessor-pairs': 0,
 		'array-bracket-spacing': [ 2, 'always' ],
 		'array-callback-return': 0,
@@ -200,7 +203,6 @@ module.exports = {
 		'space-before-function-paren': [ 2, 'never' ],
 		'space-in-parens': [ 2, 'never' ],
 		'space-infix-ops': 2,
-		'space-return-throw-case': 2,
 		'space-unary-ops': 2,
 		'spaced-comment': 2,
 		'strict': 0,
@@ -213,5 +215,6 @@ module.exports = {
 		'wrap-regex': 0,
 		'yield-star-spacing': 0,
 		'yoda': [ 2, 'never', { 'exceptRange': true } ]
+		/* eslint-enable quote-props */
 	}
 };

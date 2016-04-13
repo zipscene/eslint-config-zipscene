@@ -4,7 +4,8 @@
   "description": "Rules that adhere to the Zipscene company coding standards.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint .",
+    "test": "eslint ."
   },
   "repository": {
     "type": "git",
@@ -22,7 +23,9 @@
   "author": "",
   "license": "ISC",
   "peerDependencies": {
-    "eslint": "^2.7.0",
-    "eslint-plugin-ember": "^1.1.0"
+    "eslint": "^2.7.0"
+  },
+  "devDependencies": {
+    "eslint": "^2.7.0"
   }
 }
