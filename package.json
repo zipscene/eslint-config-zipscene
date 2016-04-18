@@ -20,7 +20,7 @@
     "eslintconfig",
     "es6"
   ],
-  "author": "",
+  "author": "Zipscene, LLC",
   "license": "ISC",
   "peerDependencies": {
     "eslint": "^2.7.0"
