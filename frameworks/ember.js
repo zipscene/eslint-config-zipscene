@@ -1,5 +1,5 @@
 module.exports = {
-	extends: 'zipscene/env/browser',
+	extends: 'zipscene/environments/browser',
 	plugins: [ 'ember', 'ember-cleanup' ],
 	rules: {
 		'ember-cleanup/cp-brace-expansion': 2,
