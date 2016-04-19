@@ -1,5 +1,4 @@
 module.exports = {
-	parser: 'babel-eslint',
 	env: {
 		'shared-node-browser': true,
 		'es6': true,
