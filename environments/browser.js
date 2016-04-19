@@ -1,12 +1,14 @@
 module.exports = {
 	extends: 'zipscene/core',
 	env: {
-		'shared-node-browser': false,
-		'browser': true
+		'browser': true,
+		'shared-node-browser': false
+	},
+	parserOptions: {
+		ecmaVersion: 7,
+		sourceType: 'module'
 	},
 	rules: {
-		'indent': [ 2, 2, { 'SwitchCase': 1 } ],
-		'array-bracket-spacing': [ 2, 'never' ],
 		'no-alert': 2
 	}
 };
