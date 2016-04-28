@@ -1,5 +1,5 @@
 module.exports = {
-	extends: [ 'zipscene/environments/backend', 'zipscene/projects/pulse' ],
+	extends: [ 'zipscene/environments/node', 'zipscene/projects/pulse' ],
 	rules: {
 	}
 };
