@@ -4,6 +4,10 @@ module.exports = {
 		'mongo': true,
 		'shared-node-browser': false
 	},
+	parser: "babel-eslint",
+	parserOptions: {
+		'ecmaVersion': 7
+	},
 	rules: {
 		'accessor-pairs': 0,
 		'array-bracket-spacing': [ 2, 'always' ],

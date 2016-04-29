@@ -8,6 +8,9 @@ module.exports = {
 		ecmaVersion: 7,
 		sourceType: 'module'
 	},
+	parserOptions: {
+		"sourceType": "module"
+	},
 	rules: {
 		'no-alert': 2
 	}
