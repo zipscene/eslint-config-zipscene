@@ -1,11 +1,11 @@
 module.exports = {
-	extends: 'zipscene/core',
+	extends: [ 'zipscene/core' ],
 	env: {
 		'shared-node-browser': false,
 		'browser': true
 	},
 	parserOptions: {
-		"sourceType": "module"
+		'sourceType': 'module'
 	},
 	rules: {
 		'indent': [ 2, 2, { 'SwitchCase': 1 } ],
