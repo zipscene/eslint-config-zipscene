@@ -22,6 +22,12 @@
   ],
   "author": "Zipscene, LLC",
   "license": "MIT",
+  "eslintConfig": {
+    "extends": "zipscene/environments/node",
+    "rules": {
+      "quote-props": 0
+    }
+  },
   "peerDependencies": {
     "babel-eslint": "^6.0.4",
     "eslint": "^2.7.0",

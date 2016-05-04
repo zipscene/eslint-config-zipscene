@@ -1,6 +1,0 @@
-{
-	"extends": "zipscene/environments/node",
-	"rules": {
-		"quote-props": 0
-	}
-}
