@@ -4,7 +4,7 @@ module.exports = {
 		'mongo': true,
 		'shared-node-browser': false
 	},
-	parser: "babel-eslint",
+	parser: 'babel-eslint',
 	parserOptions: {
 		'ecmaVersion': 7
 	},

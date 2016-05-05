@@ -1,5 +1,4 @@
 module.exports = {
-	extends: 'zipscene/environments/browser',
 	plugins: [ 'ember', 'ember-cleanup' ],
 	env: { 'embertest': true },
 	rules: {

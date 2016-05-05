@@ -1,5 +1,5 @@
 module.exports = {
-	extends: 'zipscene/core',
+	extends: [ 'zipscene/core' ],
 	env: {
 		'browser': true,
 		'shared-node-browser': false
@@ -9,7 +9,7 @@ module.exports = {
 		sourceType: 'module'
 	},
 	parserOptions: {
-		"sourceType": "module"
+		'sourceType': 'module'
 	},
 	rules: {
 		'no-alert': 2

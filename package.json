@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-zipscene",
-  "version": "0.1.3",
+  "version": "0.1.6",
   "description": "Linting configuration for all Zipscene projects",
   "main": "index.js",
   "scripts": {
@@ -22,16 +22,24 @@
   ],
   "author": "Zipscene, LLC",
   "license": "MIT",
+  "eslintConfig": {
+    "extends": "zipscene/environments/node",
+    "rules": {
+      "quote-props": 0
+    }
+  },
   "peerDependencies": {
     "babel-eslint": "^6.0.4",
     "eslint": "^2.7.0",
     "eslint-plugin-ember": "^1.1.0",
-    "eslint-plugin-ember-cleanup": "^1.6.0"
+    "eslint-plugin-ember-cleanup": "^1.6.0",
+    "eslint-plugin-lodash": "^1.8.2"
   },
   "devDependencies": {
     "babel-eslint": "^6.0.4",
     "eslint": "^2.7.0",
     "eslint-plugin-ember": "^1.1.0",
-    "eslint-plugin-ember-cleanup": "^1.6.0"
+    "eslint-plugin-ember-cleanup": "^1.6.0",
+    "eslint-plugin-lodash": "^1.8.2"
   }
 }
