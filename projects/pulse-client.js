@@ -1,5 +1,5 @@
 module.exports = {
-	extends: [ 'zipscene/environments/browser', 'zipscene/frameworks/ember', 'zipscene/projects/pulse' ],
+	extends: [ 'zipscene/environments/browser', 'zipscene/modules/ember', 'zipscene/projects/pulse' ],
 	rules: {
 		'ember/ember-extend-comments': [ 0, [] ],
 		'ember/ember-reopenclass-comments': [ 0, [] ],
