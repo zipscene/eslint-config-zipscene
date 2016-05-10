@@ -1,9 +1,7 @@
 module.exports = {
 	extends: [ 'zipscene/core' ],
 	env: {
-		'shared-node-browser': false,
-		'node': true
-	},
-	rules: {
+		'node': true,
+		'shared-node-browser': false
 	}
 };
