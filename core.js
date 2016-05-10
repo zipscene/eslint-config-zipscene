@@ -1,8 +1,6 @@
 module.exports = {
 	env: {
-		'es6': true,
-		'mongo': true,
-		'shared-node-browser': false
+		'es6': true
 	},
 	parser: 'babel-eslint',
 	parserOptions: {
