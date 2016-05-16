@@ -1,5 +1,5 @@
 module.exports = {
-	extends: [ 'zipscene/modules/mocha', 'zipscene/modules/lodash' ],
+	extends: [ 'zipscene/modules/mocha', 'zipscene/modules/lodash', 'zipscene/modules/jsdoc' ],
 	rules: {
 		'arrow-body-style': [ 0, 'as-needed' ],
 		// TODO: test/lib/fake-data-utils.js#14:31 Must diable because it complains about filter
