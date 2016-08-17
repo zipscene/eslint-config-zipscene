@@ -13,7 +13,7 @@ module.exports = {
 		'ember-cleanup/no-settimeout': 2,
 		'ember-cleanup/no-throw': 0, // We prefer throwing XErrors
 		'ember-cleanup/no-typeof': [ 2, { 'disallowed': [ 'object' ] } ],
-		'ember-cleanup/cp-brace-expansion': 2,
+		'ember-cleanup/cp-brace-expansion': 0,
 		'ember-cleanup/no-is-array': 2,
 		'ember-cleanup/no-set-in-getter': 2,
 		'ember-cleanup/no-this-in-dep-keys': 2,
