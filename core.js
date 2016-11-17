@@ -11,7 +11,7 @@ module.exports = {
 		'accessor-pairs': 0,
 		'array-bracket-spacing': [ 2, 'always' ],
 		'array-callback-return': 0,
-		'arrow-body-style': [ 1, 'as-needed' ],
+		'arrow-body-style': 0,
 		'arrow-parens': 2,
 		'arrow-spacing': 2,
 		'block-scoped-var': 2,
@@ -210,7 +210,12 @@ module.exports = {
 		'strict': 0,
 		'template-curly-spacing': 0,
 		'use-isnan': 2,
-		'valid-jsdoc': 0,
+		'valid-jsdoc': [ 2, {
+			prefer: { return: 'returns' },
+			requireReturn: false,
+			requireParamDescription: false,
+			requireReturnDescription: false
+		} ],
 		'valid-typeof': 2,
 		'vars-on-top': 2,
 		'wrap-iife': 2,
