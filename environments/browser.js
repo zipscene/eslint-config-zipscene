@@ -5,10 +5,7 @@ module.exports = {
 		'shared-node-browser': false
 	},
 	parserOptions: {
-		ecmaVersion: 7,
-		sourceType: 'module'
-	},
-	parserOptions: {
+		'ecmaVersion': 7,
 		'sourceType': 'module'
 	},
 	rules: {
