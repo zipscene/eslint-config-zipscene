@@ -210,7 +210,7 @@ module.exports = {
 		'strict': 0,
 		'template-curly-spacing': 0,
 		'use-isnan': 2,
-		'valid-jsdoc': [ 2, {
+		'valid-jsdoc': [ 0, {
 			prefer: { return: 'returns' },
 			requireReturn: false,
 			requireParamDescription: false,
