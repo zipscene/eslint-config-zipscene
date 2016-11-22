@@ -191,7 +191,7 @@ module.exports = {
 		'prefer-reflect': 0,
 		'prefer-rest-params': 0,
 		'prefer-spread': 2,
-		'prefer-template': 2,
+		'prefer-template': 0,
 		'quote-props': [ 2, 'as-needed' ],
 		'quotes': [ 2, 'single', 'avoid-escape' ],
 		'radix': 0,
