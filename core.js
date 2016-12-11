@@ -16,7 +16,7 @@ module.exports = {
 		'arrow-spacing': 2,
 		'block-scoped-var': 2,
 		'block-spacing': 0,
-		'brace-style': 2,
+		'brace-style': [ 2, '1tbs', { 'allowSingleLine': true } ],
 		'callback-return': 0,
 		'camelcase': 2,
 		'comma-dangle': 2,
